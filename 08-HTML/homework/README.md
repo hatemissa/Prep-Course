@@ -12,19 +12,33 @@ I. Cree una página HTML básica.
   C. En el cuerpo, crea tres divs.
     1. En el primer div crea:
       * un elemento h1 que contiene [Tu nombre].
+      <h1>hatemissa</h1>
       * un elemento h3 que contiene "Henry".
+      <h3>henr</h3>
       * un elemento h4 que contiene "tarea de HTML / CSS".
+      <h4>tarea de HTML /CSS</h4>
     2. En el segundo div crea:
       * un elemento span que contiene texto que describe su comida favorita.
+      <span>yo no me gusta la comidia</span>
       * un elemento 'a' que se vincula a su restaurante favorito.
+            <a>macdonalds</a>
     3. En el tercer div crea:
       * una lista desordenada con dos elementos dentro de la lista
+<ul>
+    <li>mi familia</li>
+    <li>mi madre</li>
+</lu>
+
       * una etiqueta img en cada elemento de la lista que se vincula a su comida favorita. (Use la búsqueda de imágenes de Google para encontrar una foto y copiar la dirección de la misma o sino puede usar esta: "https://i.picsum.photos/id/1080/400/200.jpg").
+      
+      <img src="khaled.jpg"width="400" height="300">
+      
 ```
 
 ```
 II Añade un poco de estilo
   A. Agregue la etiqueta de estilo a su documento HTML.
+  
   B. Asignar al tercer div el id "thirdDiv".
   C. Asignar a los otros divs la clase "divClass".
   D. Asignar al span que se encuentra dentro de su segundo div el id "spanId".
