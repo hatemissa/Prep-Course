@@ -1,64 +1,80 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+# Homework: HTML
 
-# Prep Course
+Ahora que nos ha visto crear un archivo HTML y una hoja de estilo externa, crearas una propia.
 
-#### Introducción
+## Ejercicio I
 
-¡Hola! Bienvenido al Prep Course para la carrera de Desarrollo Web Full Stack
+Crear un nuevo archivo dentro de la carpeta `homework` llamado `homework.html` donde deberás realizar lo siguiente:
+```
+I. Cree una página HTML básica.
+  A. Cree el diseño básico para una página HTML usando html, head y body.
+  B. Agregue un elemento de título y asigne a su página el título de "Tarea HTML de [Su nombre]".
+  C. En el cuerpo, crea tres divs.
+    1. En el primer div crea:
+      * un elemento h1 que contiene [Tu nombre].
+      * un elemento h3 que contiene "Henry".
+      * un elemento h4 que contiene "tarea de HTML / CSS".
+    2. En el segundo div crea:
+      * un elemento span que contiene texto que describe su comida favorita.
+          * un elemento 'a' que se vincula a su restaurante favorito.
+             3. En el tercer div crea:
+      * una lista desordenada con dos elementos dentro de la lista
+      * una etiqueta img en cada elemento de la lista que se vincula a su comida favorita. (Use la búsqueda de imágenes de Google para encontrar una foto y copiar la dirección de la misma o sino puede usar esta: "https://i.picsum.photos/id/1080/400/200.jpg").
+`
+```
+II Añade un poco de estilo
 
-En este curso introductorio podrás aprender todo el contenido que luego será evaluado en el Henry Challenge, el último paso para ingresar a la carrera de Desarrollo Web Full Stack en Henry.
+  A. Agregue la etiqueta de estilo a su documento HTML.
+  B. Asignar al tercer div el id "thirdDiv".
+  C. Asignar a los otros divs la clase "divClass".
+  D. Asignar al span que se encuentra dentro de su segundo div el id "spanId".
+  E. Agregue una regla de estilo a su elemento h1 cambiando el color del texto (Listado de colores: https://www.crockford.com/wrrrld/color.html).
+  F. Agregue una regla de estilo al elemento img dándole un ancho de 400px.
+  G. Agregue una regla de estilo a 'thirdDiv' cambiando la altura a 600px y el ancho a 500px.
+  H. Agregue una regla de estilo a 'thirdDiv' cambiando el color de fondo por el que quiera.
+  I. Cambie el tamaño de la fuente para 'spanId' a 18px.
+  J. Asignar al id 'spanId' un margen de 50px.
+  K. Asignar al id 'thirdDiv' un relleno (padding) de 50px.
+  L. Asignar al id 'thirdDiv' un borde con cualquier ancho de color y estilo que elija.
+```
 
-## ¿Qué es el Prep Course?
+```
+III. Cree una hoja de estilo externa y mueva todas las reglas de estilo anteriores a la nueva hoja de estilo.
+  A. Cree un archivo llamado styles.css en esta carpeta.
+  B. COPIE todas sus reglas de estilo en este nuevo archivo.
+  C. Agregue una etiqueta de enlace a su html que importe su nuevo archivo css.
+```
 
-El Prep Course, o curso preparatorio, es un curso que diseñamos desde Henry con la finalidad de nivelar a todos nuestros aplicantes. La idea es que con este curso puedas dar tus primeros pasos en tecnología y así aprender esos conceptos básicos que serán necesarios para cuando estés dentro de la carrera.
+```
+IV. Suba su trabajo a su repositorio de github`
+```
 
-#### ¿En qué consiste el Prep Course?
+### Crédito adicional:
+>   Para hacer los extra credits, generalmente será necesario que investigue algunas cosas por su cuenta en Internet.
 
-El curso consiste en una serie de videos, material escrito y ejercicios para que puedas ir aprendiendo estos conceptos básicos de Javascript, HTML y CSS. Todo el material se encuentra **aquí en la parte superior de la página**, iniciando por la sección de **"Intro"** y finalizando en la sección del **"Challenge"**.
+  * Establecer una imagen como fondo de toda la página
+  * Centrar los div en la página
+  * Centrar todos los elementos en la página
+  * [Lea sobre el posicionamiento y use la regla de posición en sus estilos](https://es.learnlayout.com/index.html)
+  * Lea sobre flexbox y use flexbox para centrar todos los elementos en la página
 
-Podrás ir avanzando con el contenido a tu ritmo y de manera asincrónica (es decir, en los horarios y tiempos que tu prefieras). Cuando hayas finalizado, podrás inscribirte para realizar el Henry Challenge.
+## Ejercicio II
 
-## ¿Qué es el Henry Challenge?
+```
+Usando lo que aprendiste de HTML vas a crear un nuevo documento dentro de la carpeta de 'homework' llamado 'cv.html'. En el mismo vas crear tu propio Curriculum, deberá tener las siguientes secciones:
 
-Es un examen donde evaluamos los conceptos que se aprenden en el Prep Course. El examen tiene la finalidad de asegurarnos que realmente se han aprendido estos conceptos, dado que tenerlos bien claros es la clave de éxito para que puedas avanzar bien dentro de la carrera.
-El examen se realiza los días sábados cada dos semanas, previa inscripción en el siguiente link. Podrás rendirlo todas las veces que quieras. Para más información, puedes ir a la sección del challenge de este repositorio (prep.soyhenry.com/challenge).
+* Titulo
+* Descripción Personal
+* Educación
+* Experiencias Laborales
+* Skills
+* Tu foto
+* Hobbies
 
-## ¿Qué puedo hacer si tengo dudas?
+Además agregá una sección más donde expliques por qué estás estudiando esta carrera y cuáles son tus expectativas al finalizar la carrera.
 
-Contamos con dos herramientas de apoyo:
+Subir también este archivo a su repositorio de github
 
-**Slack:** es una plataforma de comunicación, donde podrás ponerte en contacto con nuestra comunidad que siempre te ayudará a resolver todas tus dudas. Encontrarás acceso a Slack desde la [plataforma de admisión](https://www.admissions.soyhenry.com/) o desde los mails que recibiste al momento de aplicar.
-Más adelante te explicaremos cómo usar la herramienta.
+```
 
-**Clases de apoyo en vivo:** de lunes a viernes hay un espacio en vivo via Zoom con estudiantes avanzados que se postulan para responder todas tus consultas.
-
-#### Entonces, ¿qué debo hacer ahora para avanzar con el proceso?
-
-Debes comenzar a ver todos los videos, el material escrito y a hacer los ejercicios, siguiendo el orden postulado aquí en el curso. Una vez que hayas finalizado, podrás realizar el Henry Challenge.
-
-Cualquier duda, nos puedes escribir a admisiones@soyhenry.com
-¡Muchos éxitos!
-
-## Clases de Apoyo
-
-Para poder acompañarte en esta etapa, ponemos a disposición las “Clases de apoyo en vivo”. Estos son espacios donde los Henry Heros (HHs), es decir estudiantes avanzados de Henry, se ponen a disposición para despejar todas las dudas que puedas tener mientras estás estudiando el Prep Course.
-
-Las clases son de lunes a viernes, por la tarde. Cada día se establece una temática distinta a trabajar. Deberás llegar a la clase habiendo visto los videos sobre ese tema e intentado resolver los ejercicios, dado que en las clases no se explicará los temas desde cero sino que se resolverán dudas puntuales.
-
-Si no puedes asistir al espacio en vivo, podrás ver la grabación. Puedes encontrar el calendario con las clases, el link de acceso y el link de la grabación, aquí: [calendario](/Calendario)
-
-## Open House
-
-Te compartimos esta grabación del último Open House que hicimos en nuestro canal de Youtube. En este video podrás conocer más sobre Henry, la carrera y el proceso de admisión:
-
-<div class="iframeContainer">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p_Hb0_v8SAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-## ¿Quieres conocer más sobre la carrera de Desarrollo Web Full Stack en Henry?
-
-En este video te explicamos todo lo que debes conocer:
-
-<div class="iframeContainer">
-<iframe src="https://player.vimeo.com/video/426051769" allow="autoplay; fullscreen"></iframe>
-</div>
+> Para este ejercicio vos vas a tener que elegir que **tags** html usar para darle la mejor estructuración al html. Acordate que en el futuro vamos a ver más en profundidad los estilos CSS, por lo que por ahora no te preocupes tanto del layout más allá de las reglas básicas.
