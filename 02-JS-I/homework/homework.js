@@ -302,7 +302,7 @@ module.exports = {
   elevarAlCubo,
   elevar,
   redondearNumero,
-  redondearHaciaArriba,
+  redondearHaciaAriba,
   numeroRandom,
   esPositivo,
   agregarSimboloExclamacion,
