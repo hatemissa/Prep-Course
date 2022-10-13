@@ -149,8 +149,8 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return num:Math.pow(num , exponent);
-  // return num ** exponent;
+ 
+  return num ** exponent;
 }
 
 function redondearNumero(num) {
@@ -177,8 +177,10 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
 
 if(numero > 0){
-  return "Es positivo";
-  else if(numero < 0){
+  return "Es positivo";{
+
+  }if(numero < 0)
+  {
     return "Es negativo";
   }
   return false;
@@ -190,7 +192,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-return str + "!"; str!
+return str + "!";
 
 }
 
@@ -237,7 +239,7 @@ function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
 
-  return (base*altura)/ 2;
+  return (base*altura) / 2;
 }
 
 
@@ -261,12 +263,16 @@ function esVocal(letra){
   if(letra.length >1) {
 return "Dato incorrecto";
   }
-  else if(letra === "a" letra ==="e" letra ==="i" letra === "0"  letra ==="u"){
+  else if(letra === "a" || letra ==="e" || letra ==="i" || letra === "0" || letra ==="u");
+  {
     return "Es vocal";
     
   }
-  else return "incorrecto";
+} 
+return "Dato incorrecto";
 }
+
+  
 
 
 
